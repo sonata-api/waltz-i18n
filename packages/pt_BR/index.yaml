@@ -1,9 +1,15 @@
 all: todos
 user: usuário | usuários
 none: nenhum
+
 action:
   add: Adicionar
   edit: Editar
   remove: Remover
   view: Visualizar
   duplicate: Duplicar
+  confirm: Confirmar
+  cancel: Cancelar
+
+prompt:
+  default: Tem certeza de que deseja fazer isso?

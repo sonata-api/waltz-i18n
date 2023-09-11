@@ -1,5 +1,6 @@
 {
   "name": "waltz-i18n",
+  "private": true,
   "version": "1.0.0",
   "description": "This repository contains internationalization packages for Waltz UI.",
   "main": "index.js",
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "yaml-cli": "^1.1.8"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
