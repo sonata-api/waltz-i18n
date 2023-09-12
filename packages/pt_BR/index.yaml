@@ -4,12 +4,16 @@ none: nenhum
 
 action:
   add: Adicionar
+  cancel: Cancelar
+  confirm: Confirmar
+  duplicate: Duplicar
   edit: Editar
+  insert: Inserir
   remove: Remover
   view: Visualizar
-  duplicate: Duplicar
-  confirm: Confirmar
-  cancel: Cancelar
 
 prompt:
   default: Tem certeza de que deseja fazer isso?
+  close_panel: |
+    Deseja mesmo fechar esse painel?
+    Informações que não foram salvas podem ser perdidas.
